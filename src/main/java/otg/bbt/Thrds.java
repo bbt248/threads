@@ -37,5 +37,6 @@ public class Thrds extends Meths {
 
         fibonacciThread.start();
         readerSumThread.start();
+        System.out.println("Все операции завершены");
     }
 }
